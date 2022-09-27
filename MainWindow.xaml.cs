@@ -24,5 +24,11 @@ namespace WPFFILIPPOV_PR1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            gridik.Background = Brushes.Green;
+            textblock1.Text = "Начало работы";
+        }
     }
 }

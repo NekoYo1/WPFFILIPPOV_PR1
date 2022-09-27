@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:WPFFILIPPOV_PR1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="gridik">
+        <Button x:Name ="button1"  Content="Скрыть" HorizontalAlignment="Left" Margin="104,129,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name ="button2"  Content="Показать" HorizontalAlignment="Left" Margin="171,129,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name ="textblock1"  HorizontalAlignment="Left" Margin="104,165,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
