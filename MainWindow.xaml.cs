@@ -25,10 +25,25 @@ namespace WPFFILIPPOV_PR1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            gridik.Background = Brushes.Green;
-            textblock1.Text = "Начало работы";
+            Label.Text = "Начало работы";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            this.BackColor = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
