@@ -33,7 +33,7 @@ namespace WPFFILIPPOV_PR1
         private void Form1_Load(object sender, EventArgs e)
         {
             Random random = new Random();
-            this.BackColor = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
+            Color.FromArg(random.Next(255), random.Next(255), random.Next(255));
         }
 
         private void button1_Click(object sender, EventArgs e)
