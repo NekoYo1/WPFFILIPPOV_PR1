@@ -6,10 +6,9 @@
         xmlns:local="clr-namespace:WPFFILIPPOV_PR1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="gridik">
-        <Button x:Name ="button1"  Content="Скрыть" HorizontalAlignment="Left" Margin="104,129,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Button x:Name ="button2"  Content="Показать" HorizontalAlignment="Left" Margin="171,129,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name ="textblock1"  HorizontalAlignment="Left" Margin="104,165,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label Content="Начало работы" HorizontalAlignment="Left" Margin="130,217,0,0" VerticalAlignment="Top"/>
+    <Grid x:Name="grid">
+        <Button x:Name ="button1"  Content="Показать" HorizontalAlignment="Left" Margin="104,129,0,0" VerticalAlignment="Top" Click="button1_Click"/>
+        <Button x:Name ="button2"  Content="Скрыть" HorizontalAlignment="Left" Margin="171,129,0,0" VerticalAlignment="Top" Click="button2_Click"/>
+        <TextBlock x:Name="Metka" HorizontalAlignment="Left" Margin="131,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37"><Run Language="ru-ru" /><LineBreak/><Run Language="ru-ru"/></TextBlock>
     </Grid>
 </Window>

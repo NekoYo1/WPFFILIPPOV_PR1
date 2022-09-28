@@ -25,25 +25,14 @@ namespace WPFFILIPPOV_PR1
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            Label.Text = "Начало работы";
+            Metka.Background = Brushes.Green;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button2_Click(object sender, RoutedEventArgs e)
         {
-            Random random = new Random();
-            Color.FromArg(random.Next(255), random.Next(255), random.Next(255));
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
+            Metka.Background = Brushes.White;
         }
     }
 }
